@@ -11848,3 +11848,34 @@ html {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+/* Minimalistic style for buttons */
+.btn-minimalist {
+  background-color: transparent;
+  border: none;
+  color: #e21e80;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  margin: 5px;
+  padding: 5px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.btn-minimalist.active {
+  border-bottom: 2px solid #e21e80;
+}
+
+/* Slide animation */
+.project-set {
+  transition: transform 0.2s ease;
+}
+
+.slide-left {
+  transform: translateX(-100%);
+}
+
+.slide-right {
+  transform: translateX(100%);
+}
+
